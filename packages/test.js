@@ -1,3 +1,3 @@
-const a = 123
+const a = 123;
 
-let c = 3
+let c = 3;
