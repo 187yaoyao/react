@@ -12,3 +12,5 @@ export interface ReactElement {
 	ref: Ref;
 	$$type: symbol | number;
 }
+
+export type Action<State> = State | ((prevState: State) => State);
