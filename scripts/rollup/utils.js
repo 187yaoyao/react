@@ -25,7 +25,8 @@ export const getPackageJSON = (packageName) => {
 
 export const getBasePlugins = ({
     alias = {
-        __DEV__: true
+        __DEV__: true,
+        preventAssignment: true
     },
     typescript = {}
 } = {}) => {

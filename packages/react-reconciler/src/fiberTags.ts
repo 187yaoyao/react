@@ -8,3 +8,5 @@ export const FunctionComponent = 0;
 export const HostComponent = 5;
 export const RootComponent = 3;
 export const HostText = 6;
+
+export const MutationMask = HostComponent | HostText | FunctionComponent;

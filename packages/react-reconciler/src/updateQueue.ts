@@ -34,7 +34,7 @@ export const enqueueUpdate = <State>(
 
 export const progressUpdateQueue = <State>(
     baseState: State,
-    pendingUpdate: Update<State>
+    pendingUpdate: Update<State> | null
 ): {memoizedState: State} => {
     
     const result: ReturnType<typeof progressUpdateQueue<State>> = {memoizedState: baseState}

@@ -1,11 +1,14 @@
 {
-  "name": "react-reconcile",
+  "name": "react-dom",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "module": "index.ts",
   "dependencies": {
-    "shared": "workspace: *"
+    "shared": "workspace:*",
+    "react-reconciler": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "workspace:*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
